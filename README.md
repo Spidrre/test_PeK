@@ -3,7 +3,7 @@
 This project is aimed on exploration of various approaches for recognition of apples on sample images and provision of list of them apples with coordinates of their centers (in pixels). Several methodologies were tested, ranging from traditional image processing techniques to deep learning models. Below is a summary of the approaches taken and their respective outcomes.
 
 13/01/2025 update:
-In this version, in addition to changing the saturation, the following steps were taken:
+In this version, in addition to changing the saturation of images 4-6, the following steps were taken:
 
 - The ultralytics library has been updated to version 8.3.59, which includes enhancements to the auto_annotate method, allowing for manual adjustment of confidence and IoU values. More specifically, changing IoU allowed to battle false positive detections (on images 1-3).
 - Separate parameters were applied to JPG and PNG images to account for their differing characteristics and the types of objects they represent.
